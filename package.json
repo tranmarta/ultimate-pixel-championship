@@ -1,7 +1,7 @@
 {
   "devDependencies": {
-    "prettier": "^2.8.7",
-    "husky": "^8.0.0"
+    "husky": "^8.0.3",
+    "prettier": "^2.8.7"
   },
   "scripts": {
     "prepare": "husky install"
@@ -10,5 +10,9 @@
     "**/*.{js,jsx,ts,tsx}": [
       "npx prettier --write"
     ]
+  },
+  "dependencies": {
+    "dependencies": "^0.0.1",
+    "jsdom": "^22.1.0"
   }
 }
