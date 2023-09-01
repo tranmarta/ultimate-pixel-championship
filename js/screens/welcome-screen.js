@@ -15,21 +15,10 @@ function createButton() {
    return chooseButton && contentButton;
 }
 
-/*
-button.addEventListener('click', function (event) {});
-*/
-
 image.onClick = function choose() {
    image.src = './components/choose.svg';
    return image.src;
 };
-
-/*
-chooseButton.addEventListener('click', e =>
-{
-   window.location =
-})
-*/
 
 function ultimatePixel() {
    const h1UltimatePixel = document.createElement('h1');
@@ -62,14 +51,8 @@ function margins(marginHeader, marginFooter) {
    return marginNav && marginFooter;
 }
 
-class swords {
-   constructor(leftSword, rightSword) {
-      this.leftSword = left.sword;
-      this.rightSword = right.sword;
-   }
-}
+function addSwords() {}
 
-swords();
 orangeButton();
 margins();
 lineBelowUPC();
