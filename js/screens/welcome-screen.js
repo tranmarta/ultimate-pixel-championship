@@ -4,50 +4,73 @@ export const welcomeScreen = () => {
    return welcomeStepWrapper;
 };
 
-function orangeButton() {
+const svgNS = './assets/choose.svg';
+const svg = document.createElementNS(svgNS, 'svg');
+
+function createButton() {
    const chooseButton = document.createElement('button');
    const contentButton = document.innerText('Choose');
-   const srcButton = document.src('./components/choose.svg');
-   document.chooseButton.appendChild(contentButton && srcButton);
-   return chooseButton;
+   svg.appendChild(chooseButton && contentButton);
+   document.body.appendChild(svg);
+   return chooseButton && contentButton;
 }
 
 /*
 button.addEventListener('click', function (event) {});
 */
 
-image.onClick = function Choose() {
+image.onClick = function choose() {
    image.src = './components/choose.svg';
    return image.src;
+};
+
+/*
+chooseButton.addEventListener('click', e =>
+{
+   window.location =
+})
+*/
+
+function ultimatePixel() {
+   const h1UltimatePixel = document.createElement('h1');
+   h1UltimatePixel.innerText = 'Ultimate Pixel';
+   document.body.append(h1UltimatePixel);
+   return h1UltimatePixel;
 }
 
-function UltimatePixelChampionships(fontWelcomeScreen, fontForm) {
-   const fontWelcomeScreen = document.createElement('div');
-   fontWelcomeScreen.innerText = src('./assets/Ultimate Pixel Championships.svg');
-   const fontForm = document.createElement('div');
-   fontForm.innerText = src('./assets/fill-Out-Form.svg')
-   return fontWelcomeScreen && fontForm;
+function championships() {
+   const h1Championships = document.createElement('h1');
+   h1Championships.innerText = 'Championships';
+   document.body.append(h1Championships);
+   return h1Championships;
 }
+
+ultimatePixel();
+championships();
 
 function lineBelowUPC(orangeLine) {
    const orangeLine = document.createElement('div');
-   orangeLine = src('./components/Line 15.svg');
+   orangeLine = src('./components/orangeLine.svg');
    return orangeLine;
 }
 
-function margins(marginNav,marginFooter) {
-   const marginNav = document.createElement('div');
-   marginNav = src('./components/Margin-nav.svg');
+function margins(marginHeader, marginFooter) {
+   const marginHeader = document.createElement('div');
+   marginHeader = src('./components/marginHeader.svg');
    const marginFooter = document.createElement('div');
-   marginFooter = src('./components/Margin-footer.svg');
+   marginFooter = src('./components/marginFooter.svg');
    return marginNav && marginFooter;
 }
 
-function swords(leftSword, rightSword)
-{
-   const leftSword = document.createElement('div');
-   leftSword = src('./components/leftSword.png');
-   const rightSword = document.createElement('div');
-   rightSword = src('./component/rightSword.png');
-   return leftSword && rightSword;
+class swords {
+   constructor(leftSword, rightSword) {
+      this.leftSword = left.sword;
+      this.rightSword = right.sword;
+   }
 }
+
+swords();
+orangeButton();
+margins();
+lineBelowUPC();
+createButton();

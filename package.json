@@ -12,6 +12,7 @@
     ]
   },
   "dependencies": {
-    "dependencies": "^0.0.1"
+    "dependencies": "^0.0.1",
+    "jsdom": "^22.1.0"
   }
 }

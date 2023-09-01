@@ -37,7 +37,7 @@ button
     width: 60px;
     height: 60px;
     flex-shrink: 0;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    background: url(./assets/leftSword.png), lightgray 50% / cover no-repeat;
 }
 
 .rightSword
@@ -45,31 +45,31 @@ button
     width: 60px;
     height: 60px;
     flex-shrink: 0;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    background: url(./assets/rightSword.png), lightgray 50% / cover no-repeat;
 }
 
-.Margin-nav
+.marginHeader
 {
     width: 375px;
     height: 32px;
     flex-shrink: 0;
 }
 
-.Margin-footer
+.marginFooter
 {
     width: 375px;
     height: 32px;
     flex-shrink: 0;
 }
 
-.line15
+.orangeLine
 {
     width: 256px;
     height: 0px;
     background: #DA8B14;
 }
 
-.fill-Out-Form
+.fillOutForm
 {
     color: #EFB55E;
     text-align: center;
@@ -82,7 +82,7 @@ button
     width: 277px;
 }
 
-.Ultimate-Pixel
+#h1UltimatePixel
 {
     color: var(--white, #FFF);
     text-align: center;
@@ -94,7 +94,7 @@ button
     line-height: 42px; /* 93.333% */
 }
 
-.Championships
+#championships
 {
     color: var(--orange, #DA8B14);
     /* H1 */
