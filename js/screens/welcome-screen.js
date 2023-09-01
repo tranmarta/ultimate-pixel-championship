@@ -60,7 +60,7 @@ function margins(marginHeader, marginFooter) {
    marginHeader = src('./components/marginHeader.svg');
    const marginFooter = document.createElement('div');
    marginFooter = src('./components/marginFooter.svg');
-   return marginNav && marginFooter;
+   return marginHeader && marginFooter;
 }
 
 class swords {
@@ -72,6 +72,6 @@ class swords {
 
 swords();
 orangeButton();
-margins();
-lineBelowUPC();
-createButton();
+margins(marginHeader, marginFooter);
+lineBelowUPC(orangeLine);
+createButton(chooseButton, contentButton);
