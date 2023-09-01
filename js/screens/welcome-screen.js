@@ -4,7 +4,8 @@ export const welcomeScreen = () => {
    return welcomeStepWrapper;
 };
 
-const svgNS = './assets/choose.svg';
+const svgNS =
+   'https://www.figma.com/file/ld6OY4JTIGDX7GGglSFRVk/Pixel-Championships-x-Nerdbord?type=design&node-id=54600-26265&mode=dev';
 const svg = document.createElementNS(svgNS, 'svg');
 
 function createButton() {
