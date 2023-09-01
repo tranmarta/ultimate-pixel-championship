@@ -4,7 +4,8 @@ export const welcomeScreen = () => {
    return welcomeStepWrapper;
 };
 
-const svgNS = './assets/choose.svg';
+const svgNS =
+   'https://www.figma.com/file/ld6OY4JTIGDX7GGglSFRVk/Pixel-Championships-x-Nerdbord?type=design&node-id=54600-26265&mode=dev';
 const svg = document.createElementNS(svgNS, 'svg');
 
 function createButton() {
@@ -48,12 +49,12 @@ function margins(marginHeader, marginFooter) {
    marginHeader = src('./components/marginHeader.svg');
    const marginFooter = document.createElement('div');
    marginFooter = src('./components/marginFooter.svg');
-   return marginNav && marginFooter;
+   return marginHeader && marginFooter;
 }
 
 function addSwords() {}
 
 orangeButton();
-margins();
-lineBelowUPC();
-createButton();
+margins(marginHeader, marginFooter);
+lineBelowUPC(orangeLine);
+createButton(chooseButton, contentButton);
