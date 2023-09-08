@@ -10,5 +10,5 @@ document.addEventListener('DOMContentLoaded', () => {
    app.append(displayWelcomeScreen);
 
    // Display wizard screen
-   // app.append(displayWizardScreen);
+   app.append(displayWizardScreen);
 });

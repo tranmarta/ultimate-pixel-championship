@@ -38,22 +38,34 @@ ultimatePixel();
 championships();
 
 function lineBelowUPC(orangeLine) {
-   const orangeLine = document.createElement('div');
-   orangeLine = src('./components/orangeLine.svg');
-   return orangeLine;
+   const svgLine = 'assetsorangeLine.svg';
+   const svgL = document.createElementNS(svgLine, 'svg');
+   document.body.append(svgL);
+   return svgLine;
 }
 
-function margins(marginHeader, marginFooter) {
-   const marginHeader = document.createElement('div');
-   marginHeader = src('./components/marginHeader.svg');
-   const marginFooter = document.createElement('div');
-   marginFooter = src('./components/marginFooter.svg');
-   return marginNav && marginFooter;
+const svgTopMargin = 'assetsmarginTop.svg';
+const svgBottomMargin = 'assetsmarginBottom.svg';
+
+function margins() {
+   const svgMarginTop = document.createElementNS(svgTopMargin, 'svg');
+   const svgMarginBottom = document.createElementNS(svgBottomMargin, 'svg');
+   document.body.append(svgMarginTop && svgMarginBottom);
+   return svgMarginTop && svgMarginBottom;
 }
 
-function addSwords() {}
+const svgLeftSword = 'assets/leftSword.svg';
+const svgRightSword = 'assets/rightSword.svg';
+
+function addSwords() {
+   const svgLSword = document.createElementNS(svgLeftSword, 'svg');
+   const svgRSword = document.createElementNS(svgRightSword, 'svg');
+   document.body.appendChild(svgLSword && svgRSword);
+   return svgLSword && svgRSword;
+}
 
 orangeButton();
 margins();
 lineBelowUPC();
 createButton();
+addSwords();
