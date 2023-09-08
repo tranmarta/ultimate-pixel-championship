@@ -48,14 +48,14 @@ button
     background: url(./assets/rightSword.png), lightgray 50% / cover no-repeat;
 }
 
-.marginHeader
+.marginTop
 {
     width: 375px;
     height: 32px;
     flex-shrink: 0;
 }
 
-.marginFooter
+.marginBottom
 {
     width: 375px;
     height: 32px;

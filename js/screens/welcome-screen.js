@@ -38,14 +38,14 @@ ultimatePixel();
 championships();
 
 function lineBelowUPC(orangeLine) {
-   const svgLine = 'assetsorangeLine.svg';
+   const svgLine = 'assets/orangeLine.svg';
    const svgL = document.createElementNS(svgLine, 'svg');
    document.body.append(svgL);
    return svgLine;
 }
 
-const svgTopMargin = 'assetsmarginTop.svg';
-const svgBottomMargin = 'assetsmarginBottom.svg';
+const svgTopMargin = 'assets/marginTop.svg';
+const svgBottomMargin = 'assets/marginBottom.svg';
 
 function margins() {
    const svgMarginTop = document.createElementNS(svgTopMargin, 'svg');
