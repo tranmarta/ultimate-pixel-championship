@@ -48,14 +48,14 @@ button
     background: url(./assets/rightSword.png), lightgray 50% / cover no-repeat;
 }
 
-.marginHeader
+.marginTop
 {
     width: 375px;
     height: 32px;
     flex-shrink: 0;
 }
 
-.marginFooter
+.marginBottom
 {
     width: 375px;
     height: 32px;
@@ -103,4 +103,47 @@ button
     font-style: normal;
     font-weight: 400;
     line-height: 42px;
+}
+
+.h3Text
+{
+    color: var(--Orange, #DA8B14);
+    text-align: center;
+    /* H3 */
+    font-family: Germania One;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; /* 116.667% */
+}
+
+#annoyedKaren
+{
+    background: url(assets\annoyedKaren.svg),
+    lightgray 50% / cover no-repeat;
+}
+
+#madSuzie
+{
+    background: url(assets\madSuzie.svg), lightgray 50% / cover no-repeat;
+}
+
+#ivyIrene
+{
+    background: url(assets\ivyIrene.svg), lightgray 50% / cover no-repeat;
+}
+
+#paleLora
+{
+    background: url(assets\paleLora.svg), lightgray 50% / cover no-repeat;
+}
+
+#purplePie
+{
+    background: url(assets\purplePie.svg), lightgray 50% / cover no-repeat;
+}
+
+#jennyWick
+{
+    background: url(assets\jennyWick.svg), lightgray 50% / cover no-repeat;
 }
